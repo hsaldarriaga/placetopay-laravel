@@ -1,0 +1,27 @@
+{
+    "name": "hsaldarriaga/placetopay-laravel",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Hernan S.",
+            "email": "hernan.saldarriaga.is@gmail.com"
+        }
+    ],
+    "repositories": [
+            {
+                "url": "https://github.com/hsaldarriaga/placetoplay.git",
+                "type": "git"
+            }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6.4",
+        "laravel/framework": "5.3.*",
+        "hsaldarriaga/placetopay": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hsaldarriaga\\placetopay-laravel\\": "app/"
+        }
+    }
+}
