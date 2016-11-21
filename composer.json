@@ -1,5 +1,5 @@
 {
-    "name": "hsaldarriaga/placetopay-laravel",
+    "name": "hsaldarriaga/placetopaylaravel",
     "type": "library",
     "authors": [
         {
@@ -16,7 +16,10 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.6.4",
-        "laravel/framework": "5.3.*",
+        "illuminate/support": "5.3.*",
+        "illuminate/database": "5.3.*",
+        "illuminate/console": "5.3.*",
+        "illuminate/filesystem": "5.3.*",
         "hsaldarriaga/placetopay": "*"
     },
     "autoload": {
