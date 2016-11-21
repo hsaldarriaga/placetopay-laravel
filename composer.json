@@ -24,7 +24,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Hsaldarriaga\\placetopay-laravel\\": "app/"
+            "Hsaldarriaga\\placetopaylaravel\\": "app/"
         }
     }
 }
